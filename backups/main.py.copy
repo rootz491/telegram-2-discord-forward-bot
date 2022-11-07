@@ -1,0 +1,120 @@
+import os
+from datetime import datetime as d
+import pytz
+from discord import File
+from discord.ext import commands
+from telethon import TelegramClient, events
+import time
+from config import config
+from modules.logger import Logger
+
+TELEGRAM_API_ID = config.get('TELEGRAM_API_ID')
+TELEGRAM_API_HASH = config.get('TELEGRAM_API_HASH')
+DISCORD_TOKEN = config.get('DISCORD_TOKEN')
+GUILD_ID = int(config.get('GUILD_ID'))
+FORWARD = config.get('FORWARD')
+BLACK_LISTED_KEYWORDS = list(config.get("BLACK_LISTED_KEYWORDS"))
+
+MESSAGE_SEPARATOR = config.get('MESSAGE_SEPARATOR')
+FILTER_KEYWORDS = config.get('FILTER_KEYWORDS')
+
+telegram_client = TelegramClient('test', TELEGRAM_API_ID, TELEGRAM_API_HASH)
+telegram_logger = Logger('TELEGRAM')
+
+discord_client = commands.Bot(command_prefix='!')
+discord_logger = Logger('DISCORD')
+
+
+@discord_client.event
+async def on_ready():
+    global d
+    discord_logger.info(f'Logged in as {discord_client.user}')
+
+@telegram_client.on(events.NewMessage())
+async def my_event_handler(event):
+    if not discord_client.is_ready():
+        return telegram_logger.info('Discord Client is not ready.')
+
+    stripped_channel_id = str(event.chat_id)[4:]
+
+    if stripped_channel_id not in FORWARD:
+        return telegram_logger.info(f'{stripped_channel_id} is not enabled to be forwarded.')
+
+    telegram_logger.info(f'Message received from {event.chat_id}')
+
+    message = event.message.message
+
+    for keyword in FILTER_KEYWORDS:
+        if keyword in message:
+            message = message.replace(keyword, '')
+
+    forward_data = FORWARD[stripped_channel_id]
+    guild = discord_client.get_guild(int(GUILD_ID))
+    header = forward_data['header']
+    channel = guild.get_channel(int(forward_data['channel_id']))
+
+    last_message = ""
+    async for x in channel.history(limit=1):
+        last_message = x
+
+    if not str(last_message.content) == str(message):
+
+        media_path = await event.message.download_media()
+
+        if forward_data["send_pictures"] == "True" and forward_data["black_list"] == "True" and not any(x in message for x in BLACK_LISTED_KEYWORDS) or forward_data["send_pictures"] == "True" and forward_data["black_list"] == "False":
+
+            if message and media_path and "https://" in str(message) or message and not media_path:
+                await channel.send(header)
+                await channel.send(message)
+
+            elif media_path and not "https://" in str(message):
+                await channel.send(header)
+                try:
+                    await channel.send(message)
+                except:
+                    pass
+                await channel.send(file=File(media_path))
+
+        elif forward_data["send_pictures"] == "False" and forward_data["black_list"] == "True" and not any(x in message for x in BLACK_LISTED_KEYWORDS) or forward_data["send_pictures"] == "False" and forward_data["black_list"] == "False":
+            if message and media_path and "https://" in str(message) or message and not media_path:
+                link_less = message.split(" ")
+                link_less = [word + " " for word in link_less if not "https://" in word]
+
+                temp_string = ""
+
+                for x in link_less:
+                    temp_string += x
+
+                message = str(temp_string)
+
+                abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+                if any(x in message for x in abc):
+                    await channel.send(header)
+                    await channel.send(message)
+
+
+            elif media_path and not "https://" in str(message):
+                await channel.send(header)
+                try:
+                    await channel.send(message)
+                except:
+                    pass
+
+        try:
+            os.remove(media_path)
+        except:
+            pass
+
+        try:
+            await channel.send(MESSAGE_SEPARATOR)
+        except:
+            pass
+
+        telegram_logger.info(f'Message was forwarded to {channel}')
+
+
+with telegram_client as tc:
+    tc.loop.create_task(tc.connect())
+    tc.loop.create_task(discord_client.start(DISCORD_TOKEN))
+    tc.loop.run_forever()

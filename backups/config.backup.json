@@ -1,0 +1,113 @@
+{
+  "MESSAGE_SEPARATOR": "",
+  "FILTER_KEYWORDS": ["Copy", "– Chart View", "provided  :", "@vipkhoone", "@Vipkhoone", "Original Sublime Traders: https://","🆔", "🐦", "HIDDEN MESSAGE:", "U+1F194", "provided :", "leak", "#PAID_PROMOTION.", "Click the View Signal button bellow in order to view the signal", "Sublime Traders Twitter:  https://twitter.com/SublimeTraders", "D_r_v_k_i_c_h|", "1vyf.short.gy/34cBb0", "Trade best executed with Cornix", "Channel Connected", "This message cannot be forwarded or replicated", "Leaked By GodLeak", "#100eyes", "@Cryptoleaksz","💵@Cryptosz","-\n\n-   -", "#Forflies"],
+  "BLACK_LISTED_KEYWORDS": ["leak"],
+  "TELEGRAM_API_ID": 8628642,
+  "TELEGRAM_API_HASH": "5c8df72210299995ee18f40308ce54e3",
+  "DISCORD_TOKEN": "OTA5ODc0MzM4Mjg5ODE1NTYy.YZKogg.T-2aTTFJleFH4TDvKOA-bPsZxfs",
+  "GUILD_ID": "865280768019005460",
+  "FORWARD": {
+    "1485510976": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - TEST HEADER**",
+      "channel_id": "869952469516570694",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1732576757": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Bitcoin Bullets**",
+      "channel_id": "960297726610927656",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1456872361": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Predictum**",
+      "channel_id": "960298549017444434",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1382986975": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - The Bull**",
+      "channel_id": "960298746778894386",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1288385100": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Whales Crypto**",
+      "channel_id": "960298769327468594",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1797776386": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - 100 Eyes**",
+      "channel_id": "960299246681198652",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1542086237": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Russian Insiders**",
+      "channel_id": "960299687989088296",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1702209070": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Binance Killers**",
+      "channel_id": "960300072887808030",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1675909522": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Forflies**",
+      "channel_id": "960300381966069843",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1798616086": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Crypto VIP**",
+      "channel_id": "960300548811268126",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1403361225": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Crypto Premium Signals**",
+      "channel_id": "960618344208273418",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1659089950": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Top Coin**",
+      "channel_id": "960619082040889414",
+      "send_pictures": "False",
+      "black_list": "True"
+    },
+    "1697360876": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Crocodile VIP**",
+      "channel_id": "960619451357724672",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1620874899": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Signal Express**",
+      "channel_id": "960619799979888660",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "1660540407": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Klondike**",
+      "channel_id": "960622692137074698",
+      "send_pictures": "True",
+      "black_list": "True"
+    },
+    "186004": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**Test (Group)**",
+      "channel_id": "869952469516570694",
+      "send_pictures": "False",
+      "black_list": "True"
+    },
+    "038350": {
+      "header": "<:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602> <:cpdiv:869699945542848602>\n**CP Signals - Test ID 038350**",
+      "channel_id": "869952469516570694",
+      "send_pictures": "True",
+      "black_list": "True"
+    }
+  }
+}

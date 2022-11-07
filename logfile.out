@@ -1,0 +1,118 @@
+Traceback (most recent call last):
+  File "main.py", line 127, in <module>
+    with telegram_client as tc:
+  File "/Users/rootz/Documents/karan/zaab/telegram/env/lib/python3.8/site-packages/telethon/helper2022-11-06 20:00:55,605 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-06 20:06:41,730 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-06 20:24:30,839 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-06 21:43:00,492 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-06 21:48:41,945 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-06 23:15:36,471 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-07 00:43:52,455 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 00:43:54,961 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 00:57:27,276 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 00:57:27,287 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 00:57:27,287 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 00:57:27,288 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 00:57:27,288 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 00:57:43,393 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 00:57:43,908 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 00:57:44,456 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 00:57:44,993 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 00:57:45,533 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:12:27,324 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,333 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,333 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,334 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,334 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,334 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,334 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,334 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,335 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,335 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,335 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:12:27,335 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 01:13:05,035 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:05,752 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:06,262 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:06,811 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:07,293 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:07,954 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:12,209 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:12,714 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:13,203 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:13,667 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:14,175 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:13:14,692 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 01:35:40,425 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-07 02:09:34,871 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:09:34,877 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:09:34,878 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:09:40,428 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:09:44,675 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:09:45,117 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:43:14,367 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:43:16,739 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:44:08,669 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:44:08,710 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:44:08,761 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:44:08,803 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:44:19,849 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:44:20,395 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:44:20,825 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:44:21,300 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:54:35,247 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:54:35,262 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:54:35,263 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:54:35,263 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:54:35,263 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:54:35,263 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:54:35,265 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:54:35,265 - TELEGRAM - INFO - Message received from -1001876725090
+2022-11-07 02:54:59,270 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:54:59,834 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:55:00,417 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:55:00,923 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:55:01,593 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:55:05,697 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:55:06,272 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 02:55:06,780 - TELEGRAM - INFO - A message was forwarded from -1001876725090 to general(928286832209326082)
+2022-11-07 03:14:34,245 - TELEGRAM - INFO - 1137382253 is not enabled to be forwarded.
+Attempt 1 at connecting failed: TimeoutError: 
+Attempt 2 at connecting failed: TimeoutError: 
+Attempt 3 at connecting failed: TimeoutError: 
+Attempt 4 at connecting failed: TimeoutError: 
+Attempt 5 at connecting failed: TimeoutError: 
+Attempt 6 at connecting failed: TimeoutError: 
+Attempt 1 at connecting failed: TimeoutError: 
+Attempt 2 at connecting failed: TimeoutError: 
+Attempt 3 at connecting failed: TimeoutError: 
+Attempt 4 at connecting failed: TimeoutError: 
+Attempt 5 at connecting failed: TimeoutError: 
+Attempt 6 at connecting failed: TimeoutError: 
+Attempt 1 at connecting failed: TimeoutError: 
+Attempt 2 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 3 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 4 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 5 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 6 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 1 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 2 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 3 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 4 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 5 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 6 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 1 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 2 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 3 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 4 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 5 at connecting failed: OSError: [Errno 51] Network is unreachable
+Attempt 6 at connecting failed: OSError: [Errno 51] Network is unreachable
+Automatic reconnection failed 5 time(s)
+Future exception was never retrieved
+future: <Future finished exception=ConnectionError('Connection to Telegram failed 5 time(s)')>
+ConnectionError: Connection to Telegram failed 5 time(s)
+2022-11-07 10:17:22,235 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-07 10:45:58,554 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-07 11:09:45,494 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-07 16:22:50,100 - DISCORD - INFO - Logged in as zaab-test#9742
+2022-11-07 20:39:15,037 - DISCORD - INFO - Logged in as zaab-test#9742
